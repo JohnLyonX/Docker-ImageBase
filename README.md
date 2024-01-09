@@ -9,4 +9,4 @@
    - 当然,你也可以使用Docker Desktop来快速管理容器, 使用命令将镜像装载到容器之后,打开Docker Desktop,点击Containers,就可以快捷的管理你的容器; (由于我是Mac M1,应该是软件的Bug,我无法直接在软件里面将镜像装载并运行到Docke容器中,不过你们也可以尝试一下,如果不行就使用命令来进行装载并运行Docker容器)
 
 Note: Since the image on Docker has been castrated, you need to manually enable ssh, `/usr/sbin/sshd` every time you restart the container.
-注意: 由于Docker上面的镜像是经过阉割过的,所以每次重新启动容器需要手动开启ssh,`/usr/sbin/sshd`.
+注意: 由于Docker上面的镜像是经过阉割过的,所以每次重新启动容器需要手动开启ssh,`/usr/sbin/sshd`, 第一次进入系统时, 使用 `passwd root` 来重新设置root用户密码
