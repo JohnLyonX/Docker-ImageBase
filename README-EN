@@ -5,3 +5,5 @@
 5. View containers: `docker ps` (view running containers), `docker ps -a` (view all containers)
 6. If you wish to re-enter the container after exiting, use the following command: `docker start -ai [container_id or container_name]` or `docker exec -it [container_id or container_name] /bin/bash`
    - Alternatively, you can use Docker Desktop to quickly manage containers. After loading the image into the container using the command, open Docker Desktop, click Containers, and you can easily manage your containers. (Note: Due to an issue on my Mac M1, I am unable to directly load the image into the Docker container using the software. However, you can try it, and if it doesn't work, use the command to load and run the Docker container.)
+
+Note: Since the image on Docker has been castrated, you need to manually enable ssh, `/usr/sbin/sshd` every time you restart the container.
