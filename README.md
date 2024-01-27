@@ -1,4 +1,4 @@
-# Docker-ImagesLib
+# Docker-ImageBase
 
 1. 安装Docker Desktop
 2. 拉取镜像: johnlyonx/centos:[镜像名称]
